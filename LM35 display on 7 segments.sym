@@ -1,0 +1,109 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004     @WRITE_PROGRAM_MEMORY8.P2
+015     CCP_1_LOW
+015-016 CCP_1
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B-01C CCP_2
+01C     CCP_2_HIGH
+020-023 nd
+024-027 ndt
+028-02B ch
+02C-02F chay
+030     data
+031-03B ma7doan
+03C     @TRIS_C
+03D-040 @DIVS3232.P1
+03D-040 @SDTOF.P2
+03D-040 @PRINTF_L32D_2400_62_63.P3
+03D-040 @FTOSD.P4
+03D     @delay_ms1.P5
+03D-040 @DIVFF.P6
+03D     doc_nd.@SCRATCH1
+03E     doc_nd.@SCRATCH2
+03F     doc_nd.@SCRATCH3
+040     doc_nd.@SCRATCH4
+041-044 @DIVS3232.P1
+041-044 @DIVFF.P2
+041     @PRINTF_L32D_2400_62_63.@SCRATCH1
+041     doc_nd.@SCRATCH5
+041     @SDTOF.@SCRATCH1
+041     @FTOSD.@SCRATCH1
+042     @PRINTF_L32D_2400_62_63.@SCRATCH2
+043     @PRINTF_L32D_2400_62_63.@SCRATCH3
+044     @PRINTF_L32D_2400_62_63.@SCRATCH4
+045     @PRINTF_L32D_2400_62_63.@SCRATCH5
+045     @DIVFF.@SCRATCH1
+045     @DIVS3232.@SCRATCH1
+046     @PRINTF_L32D_2400_62_63.@SCRATCH6
+046     @DIVFF.@SCRATCH2
+046     @DIVS3232.@SCRATCH2
+047     @PRINTF_L32D_2400_62_63.@SCRATCH7
+047     @DIVFF.@SCRATCH3
+047     @DIVS3232.@SCRATCH3
+048     @PRINTF_L32D_2400_62_63.@SCRATCH8
+048     @DIVFF.@SCRATCH4
+048     @DIVS3232.@SCRATCH4
+049-04C @DIV3232.P1
+049     @DIVFF.@SCRATCH5
+049     @DIVS3232.@SCRATCH5
+04A     @DIVFF.@SCRATCH6
+04A     @DIVS3232.@SCRATCH6
+04D-050 @DIV3232.P1
+051     @DIV3232.@SCRATCH1
+052     @DIV3232.@SCRATCH2
+053     @DIV3232.@SCRATCH3
+054     @DIV3232.@SCRATCH4
+055     @DIV3232.@SCRATCH5
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07B     @SCRATCH
+107.6   C1OUT
+108.6   C2OUT
+10D-10E @READ_PROGRAM_MEMORY8.P1
+10D-10E @WRITE_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+0313  @delay_ms1
+00CC  nhan_dl
+0004  @DIV3232
+0046  @PRINTF_L32D_2400_62_63
+017D  doc_nd
+019A  @SDTOF
+01D7  @DIVFF
+02A8  @FTOSD
+0110  @DIVS3232
+03BC  MAIN
+03BC  @cinit
+
+Project Directory:
+    D:\Microprocess System\Proteus\LM35 display in 7 segments\
+
+Project Files:
+    LM35 display on 7 segments.c
+    C:\Program Files (x86)\PICC\devices\16f887.h
+
+Units:
+    LM35 display on 7 segments.c (main)
+
+Compiler Settings:
+    Processor:      PIC16F887
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      LM35 display on 7 segments.err
+    Ext Symbols: LM35 display on 7 segments.esym
+    INHX8:       LM35 display on 7 segments.hex
+    Symbols:     LM35 display on 7 segments.sym
+    List:        LM35 display on 7 segments.lst
+    Debug/COFF:  LM35 display on 7 segments.cof
+    Project:     LM35 display on 7 segments.PJT
+    Call Tree:   LM35 display on 7 segments.tre
+    Statistics:  LM35 display on 7 segments.sta

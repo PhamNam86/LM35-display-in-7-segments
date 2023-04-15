@@ -1,0 +1,18 @@
+ÀÄLM35 display on 7 segments
+   ÀÄMAIN  0/132  Ram=0
+      ÃÄ??0??
+      ÃÄnhan_dl  0/68  Ram=0
+      ³  ÃÄ@PRINTF_L32D_2400_62_63  0/134  Ram=12
+      ³  ³  ÃÄ@DIV3232  0/66  Ram=13
+      ³  ³  ÀÄ@DIV3232  0/66  Ram=13
+      ³  ÀÄ@PRINTF_L32D_2400_62_63  0/134  Ram=12
+      ³     ÃÄ@DIV3232  0/66  Ram=13
+      ³     ÀÄ@DIV3232  0/66  Ram=13
+      ÀÄdoc_nd  0/575  Ram=5
+         ÃÄ@SDTOF  (Inline)  Ram=5
+         ÃÄ@DIVFF  (Inline)  Ram=14
+         ÃÄ@FTOSD  (Inline)  Ram=5
+         ÃÄ@DIVS3232  0/109  Ram=14
+         ÃÄ@delay_ms1  (Inline)  Ram=1
+         ÃÄ@DIVS3232  0/109  Ram=14
+         ÀÄ@DIVS3232  0/109  Ram=14
